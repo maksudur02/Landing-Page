@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+.container{
+    width:90%;
+    margin:0 auto;
+}
+/*Header is here*/
+#header{
+    width:100%;
+    float:left;
+    background:rgb(170, 164, 164);
+    padding:10px 0px;
+}
+.logo-part{
+    width:20%;
+    float:left;
+}
+.logo-part a img{
+    width:55%;
+    padding:-35px;
+}
+.menu-part{
+    width:50%;
+    float:left;
+}
+.menu-part nav{
+
+}
+.menu-part nav ul{
+    margin:25px auto;
+    text-align:center;
+}
+.menu-part nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin:0px 20px;
+}
+.menu-part nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color:black;
+}
+.search-part{
+    width:30%;
+    float:left;
+    text-align: right;
+    padding:15px 0px;
+}
+.search-part input{
+    padding:6px;
+    border:2px solid gray;
+    border-radius: 20px;
+    font-size: 18px;
+}
+.search-part input::placeholder{
+    text-align: end;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    text-transform: uppercase;
+}.cstm{
+    font-size: 20px;
+    margin-top: 5px;
+}
+/*Hero section*/
+#hero{
+    width: 100%;
+    float: left;
+    padding: 70px 0px;
+    background-image:url(../img/hero-bg.jpg);
+    background-repeat:no repeat;
+    background-size:cover;
+    background-position:center center;
+}
+.hero.writing-part{
+    width: 50%;
+    float: left;
+    
+}
+.hero.writing-part h1{
+    font-size: 45px;
+    color: rgb(63, 12, 184);
+}
+.hero.writing-part h2{
+    font-size: 80px;
+    line-height: 60px;
+    color: chartreuse;
+    
+}
+.hero.writing-part p{
+    margin: 30px 0px;
+    font-size: 17px;
+    width: 450px;
+    color: coral;
+    
+}
+.hero.writing-part a button{
+    background: transparent;
+    border: 2px solid gray;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(107, 6, 6);
+}
+.social-icons{
+     font-size: 40px;
+     background: transparent;
+     color: azure;
+}
+.social-icons i{
+    font-size: 40px;
+    background: white;
+    color: gray;
+    border-radius: 40px;
+    margin: 10px;
+}
+.hero.image-part{
+    width:50%;
+    float: left;
+    text-align: center;
+    
+}
+.hero.image-part img{
+    width: 2000px;
+    display:block;
+    margin: 0px;
+    padding: 0px;
+}
